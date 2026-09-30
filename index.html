@@ -1,0 +1,37 @@
+<html>
+<head>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<div id="upper_content">
+    <h1>Metric/Imperrial Unit Converstion</h1>
+    <input type="number" 
+           min="0" 
+           step="any" 
+           oninput="this.value = Math.abs(this.value)" 
+           id="inputbox"><br>
+    
+    <button id="conbt">Convert</button>
+</div>
+
+<div id="down_content">
+    <div>
+     <h3>Length(Meter/Feet)</h3>
+     <div id="len"></div>
+    </div>
+    
+    <div>
+     <h3>Volume(Literrs/Gallons)</h3>
+     <div id="vol"></div>
+    </div>
+
+    <div>
+     <h3>Weight(Kilograms/Pounds)</h3>
+     <div id="mas"></div>
+    </div>
+
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>
